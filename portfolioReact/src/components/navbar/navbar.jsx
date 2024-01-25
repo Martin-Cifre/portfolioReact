@@ -3,6 +3,7 @@ import styles from "./navbar.module.css";
 import { getImgUrl } from "../../utils.js";
 
 export const Navbar = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
     return (
       <nav className={styles.navbar}>
         <a className={styles.title} href="/">
@@ -12,10 +13,13 @@ export const Navbar = () => {
         <div className={styles.menu}>
           <img
             className={styles.menuBtn}
-            src={getImgUrl("nav/desplegable.png")}
-            alt="boton menu"
+                src={menuOpen ? getImgUrl("nav/close.png")
+                              : getImgUrl("nav/desplegable.png")}
+                    alt="boton menu"
+            onClick={()=> setMenuOpen(!menuOpen)}
           />
-          <ul className={styles.menuItems}>
+                <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+                    onClick={() => setMenuOpen(false)}>
             <li>
               <a href="#sobremi">Sobre mi</a>
             </li>
