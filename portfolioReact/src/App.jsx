@@ -1,12 +1,15 @@
 import { useState } from 'react'
-import styles from "./App.modules.css"
+import { Navbar } from "./components/navbar/navbar";
+import styles from "./App.module.css";
 
 function App() {
 
 
   return (
     <>
-      <div className={styles.App}> Pingos! </div>
+      <div className={styles.App}>
+      < Navbar />
+      </div>
     </>
   );
 }
