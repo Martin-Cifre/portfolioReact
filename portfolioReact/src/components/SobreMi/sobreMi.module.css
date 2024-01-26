@@ -70,3 +70,29 @@
     height: 75px;
     padding: 20px;
 }
+
+
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .SobreImg {
+        display: none;
+    }
+
+    .items {
+        margin-top: 29px;
+    }
+
+    .item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

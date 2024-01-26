@@ -4,7 +4,7 @@ import styles from "./sobreMi.module.css";
 
 export const SobreMi = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="sobremi">
       <h2 className={styles.title}>Sobre mi</h2>
       <div className={styles.content}>
         <img
@@ -48,7 +48,7 @@ export const SobreMi = () => {
               alt="Diseño"
               className={styles.itemsImg}
             />
-            <div className={styles.itemsTxt}>
+            <div>
               <h3>Diseño Grafico</h3>
               <p>
                 Experiencia profesional en diseño grafico habiendo trabajado
