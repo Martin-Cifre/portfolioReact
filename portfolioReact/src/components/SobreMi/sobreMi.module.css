@@ -1,51 +1,72 @@
-/*@import "./vars.css";*/
+@import "../../vars.css";
 
-.container {
-    display: flex;
-    padding: 5%;
-    background: black;
-    margin: 50px;
+
+.container{
+    position: relative;
+    background-color: rgba(12,12,12,0.6);
     border-radius: 15px;
+    padding: 73px;
+    margin-top: 126px;
     z-index: 1;
-    justify-content: center;
-    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
 }
 
-.sobre {
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.75px;
-text-transform: uppercase;
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
 }
+
+
 
 .SobreImg {
-    width: 562px;
+    width: 35%;
     height: auto;
-    flex-shrink: 0;
 }
 
-.items {
+
+.items{
+    color: var(--color-text);
     display: flex;
-    width: 600px;
-    height: 128px;
+    flex-direction: column;
     gap: 50px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(165,215,232,0.42)0%, rgba(255,255,255,0)100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+.item:hover {
+    background-size: 100% 100%;
+}
+
+.item h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.item p {
+    font-size: 25px;
+}
+
+.itemsImg{
+    height: 75px;
     padding: 20px;
-    margin-left: 50px;
-}
-
-.itemsImg {
-    width: 50px;
-    height: 50px;
-}
-
-.itemsTitle {
-font-size: 25px;
-font-weight: 600;
-}
-
-.itemsTxt {
-font-size: 25px;
-font-weight: 400;
 }
