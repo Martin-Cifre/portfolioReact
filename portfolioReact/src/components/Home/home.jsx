@@ -7,12 +7,11 @@ export const Home = () => {
     return (
       <section className={styles.container}>
         <div className={styles.content}>
-          <h1 className={styles.title}>Hola, soy Martin Cifre</h1>
+          <h1 className={styles.title}>Hola, soy Martin</h1>
           <p className={styles.description}>
-            Soy un programador web Full-Stack con gran capacidad de aprendizaje.
-            Mi objetivo es contribuir al éxito de proyectos digitales mediante
-            el trabajo colaborativo y la constante adaptación a las tendencias
-            tecnológicas emergentes.
+            Desarrollador Full-Stack apasionado por impulsar el éxito de
+            proyectos digitales mediante esfuerzos colaborativos y curioso por aprender las últimas
+            tendencias tecnológicas.
           </p>
           <a href="mailto:martin.cifre@outlook.com" className={styles.contact}>
             Contactame
