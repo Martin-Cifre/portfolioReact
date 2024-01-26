@@ -1,5 +1,6 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 import { Navbar } from "./components/navbar/navbar";
+import { Home } from "./components/Home/home";
 import styles from "./App.module.css";
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
       <div className={styles.App}>
-      < Navbar />
+        < Navbar />
+        < Home />
       </div>
     </>
   );
