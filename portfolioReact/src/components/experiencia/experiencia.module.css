@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 14px;
+    margin-top: 30px;
 }
 
 
@@ -29,6 +29,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 37px;
+    justify-content: center;
 }
 
 .skill{
@@ -73,6 +74,7 @@
     background: linear-gradient(90deg, #19376d 0%, rgba(25,55,109,0)100%);
     border-radius: 10px;
     padding: 24px;
+    
 }
 
 .historyItem img {
@@ -80,6 +82,7 @@
 }
 
 .historyItemDetails{
+    margin-left: 20PX;
     font-family: var(--font-roboto);
 }
 
@@ -97,4 +100,24 @@
     margin-top: 6px;
     font-size: 25px;
     margin-left: 15px;
+}
+
+@media screen and (max-width: 830px) {
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+    }
+
+    .skills {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .history {
+        width: 100%;
+        gap: 10px;
+    }
 }
