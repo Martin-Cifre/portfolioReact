@@ -1,31 +1,65 @@
 [
-    {
-        "role": "Alumno",
-        "organisation": "Digital House",
-        "startDate": "Marzo 2023",
-        "endDate": "Noviembre 2023",
-        "experiences": "aprendizaje en todas React, Express, MySQL y Jest entre otros.",
-        "imgSrc": "history/digitalHouse.png"
+  {
+    "title": "React",
+    "imgSrc": "skills/react.png"
+  },
 
-    },
+  {
+    "title": "express",
+    "imgSrc": "skills/express.png"
+  },
 
-    {
-        "role": "Alumno",
-        "organisation": "Google",
-        "startDate": "Enero 2024",
-        "endDate": "En curso",
-        "experiences": "Aprendiendo sobre diseño UX/UI",
-        "imgSrc": "history/google.jpg"
+  {
+    "title": "mysql",
+    "imgSrc": "skills/mysql.png"
+  },
 
-    },
+  {
+    "title": "javascript",
+    "imgSrc": "skills/javascript.png"
+  },
 
-    {
-        "role": "Diseñador Grafico",
-        "organisation": "Editorial Ivrea",
-        "startDate": "Agosto 2012",
-        "endDate": "Diciembre 2017",
-        "experiences": "Maquetacion y diseño de mangas",
-        "imgSrc": "history/ivrea.png"
+  {
+    "title": "typescript",
+    "imgSrc": "skills/typescript.png"
+  },
+  {
+    "title": "html",
+    "imgSrc": "skills/html.png"
+  },
 
-    }
+  {
+    "title": "css",
+    "imgSrc": "skills/css.png"
+  },
+
+  {
+    "title": "nodejs",
+    "imgSrc": "skills/nodejs.png"
+  },
+
+  {
+    "title": "tailwind",
+    "imgSrc": "skills/tailwind.png"
+  },
+
+  {
+    "title": "bootstrap",
+    "imgSrc": "skills/bootstrap.png"
+  },
+
+  {
+    "title": "jest",
+    "imgSrc": "skills/jest.png"
+  },
+
+  {
+    "title": "photoshop",
+    "imgSrc": "skills/photoshop.png"
+  },
+
+  {
+    "title": "indesign",
+    "imgSrc": "skills/indesign.png"
+  }
 ]
