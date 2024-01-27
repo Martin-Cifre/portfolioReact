@@ -22,8 +22,7 @@ export const SobreMi = () => {
             <div className={styles.itemsTxt}>
               <h3>Frontend</h3>
               <p>
-                Conocimientos en React capaz de crear sitios completamente
-                responsive.
+                Conocimientos en React capaz de crear sitios 100% responsive.
               </p>
             </div>
           </li>
@@ -51,8 +50,7 @@ export const SobreMi = () => {
             <div>
               <h3>Diseño Grafico</h3>
               <p>
-                Experiencia profesional en diseño grafico habiendo trabajado
-                para Editorial Ivrea.
+                Experiencia profesional como diseñador gráfico.
               </p>
             </div>
           </li>

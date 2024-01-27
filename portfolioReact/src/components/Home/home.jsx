@@ -10,11 +10,11 @@ export const Home = () => {
           <h1 className={styles.title}>Hola, soy Martin</h1>
           <p className={styles.description}>
             Desarrollador Full-Stack apasionado por impulsar el éxito de
-            proyectos digitales mediante esfuerzos colaborativos y curioso por aprender las últimas
-            tendencias tecnológicas.
+            proyectos digitales mediante esfuerzos colaborativos y curioso por
+            aprender las últimas tendencias tecnológicas.
           </p>
           <a href="mailto:martin.cifre@outlook.com" className={styles.contact}>
-            Contactame
+            Contáctame
           </a>
         </div>
         <img
