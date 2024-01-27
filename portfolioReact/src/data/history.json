@@ -1,0 +1,65 @@
+[
+    {
+        "title": "React",
+        "imgSrc": "skills/react.png"
+    },
+
+    {
+        "title": "express",
+        "imgSrc": "skills/express.png"
+    },
+    
+    {
+        "title": "mysql",
+        "imgSrc": "skills/mysql.png"
+    },
+
+    {
+        "title": "javascript",
+        "imgSrc": "skills/javascript.png"
+    },
+
+    {
+        "title": "typescript",
+        "imgSrc": "skills/typescript.png"
+    },
+{
+        "title": "html",
+        "imgSrc": "skills/html.png"
+    },
+
+    {
+        "title": "css",
+        "imgSrc": "skills/css.png"
+    },
+
+    {
+        "title": "nodejs",
+        "imgSrc": "skills/nodejs.png"
+    },
+
+    {
+        "title": "tailwind",
+        "imgSrc": "skills/tailwind.png"
+    },
+
+    {
+        "title": "bootstrap",
+        "imgSrc": "skills/bootstrap.png"
+    },
+
+    {
+        "title": "jest",
+        "imgSrc": "skills/jest.png"
+    },
+
+    {
+        "title": "photoshop",
+        "imgSrc": "skills/photoshop.png"
+    },
+
+    {
+        "title": "indesign",
+        "imgSrc": "skills/indesign.png"
+    }
+]

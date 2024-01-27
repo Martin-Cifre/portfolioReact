@@ -1,0 +1,31 @@
+[
+    {
+        "role": "Alumno",
+        "organisation": "Digital House",
+        "startDate": "Marzo 2023",
+        "endDate": "Noviembre 2023",
+        "experiences": "aprendizaje en todas React, Express, MySQL y Jest entre otros.",
+        "imgSrc": "history/digitalHouse.png"
+
+    },
+
+    {
+        "role": "Alumno",
+        "organisation": "Google",
+        "startDate": "Enero 2024",
+        "endDate": "En curso",
+        "experiences": "Aprendiendo sobre diseño UX/UI",
+        "imgSrc": "history/google.jpg"
+
+    },
+
+    {
+        "role": "Diseñador Grafico",
+        "organisation": "Editorial Ivrea",
+        "startDate": "Agosto 2012",
+        "endDate": "Diciembre 2017",
+        "experiences": "Maquetacion y diseño de mangas",
+        "imgSrc": "history/ivrea.png"
+
+    }
+]
