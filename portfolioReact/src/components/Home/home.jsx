@@ -13,9 +13,21 @@ export const Home = () => {
             proyectos digitales mediante esfuerzos colaborativos y curioso por
             aprender las últimas tendencias tecnológicas.
           </p>
-          <a href="mailto:martin.cifre@outlook.com" className={styles.contact}>
-            Contáctame
-          </a>
+          <div className={styles.links}>
+            <a
+              href="mailto:martin.cifre@outlook.com"
+              className={styles.contact}
+            >
+              Contáctame
+            </a>
+
+            <a
+              href={getImgUrl("/CvMartin.pdf")}
+              className={styles.contact}
+              download>
+              Curriculum Vitae
+            </a>
+          </div>
         </div>
         <img
           src={getImgUrl("Home/homePfp.png")}

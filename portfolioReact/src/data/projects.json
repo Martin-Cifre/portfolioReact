@@ -9,12 +9,12 @@
     },
 
     {
-        "title": "Pokedex",
-        "imgSrc": "projects/pokedex.png",
-        "description": "Proyecto de Pokedex interactiva ",
-        "skills": ["react", "API", "typescript"],
-        "link": "https://poke-react-mu.vercel.app/",
-        "repositorio": "https://github.com/Martin-Cifre/PokedexReact"
+        "title": "Portfolio",
+        "imgSrc": "projects/portfolio.png",
+        "description": "Portfolio de presentacion personal",
+        "skills": ["react", "css", "javascript"],
+        "link": "/",
+        "repositorio": "https://github.com/Martin-Cifre/portfolioReact"
     },
 
     {

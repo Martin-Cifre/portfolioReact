@@ -20,18 +20,21 @@ export const Proyectos = () => {
               <p className={styles.description}>{projects.description} </p>
               <ul className={styles.skills}>
                 {projects.skills.map((skill, id) => {
-                  return(
-                  <li className={styles.skill} key={id}>
-                    {skill}
-                  </li>);
+                  return (
+                    <li className={styles.skill} key={id}>
+                      {skill}
+                    </li>
+                  );
                 })}
               </ul>
 
               <div className={styles.links}>
                 <a className={styles.link} href={projects.link}>
+                  <img src={getImgUrl("contacto/link.png")} alt="link" />
                   Link
                 </a>
                 <a className={styles.link} href={projects.repositorio}>
+                  <img src={getImgUrl("contacto/github.png")} alt="github" />
                   Repositorio
                 </a>
               </div>

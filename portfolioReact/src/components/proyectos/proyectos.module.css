@@ -85,4 +85,10 @@
     border-radius: 100px;
     background: var(--color-primary);
     padding: 2px 22px;
+    justify-content: center;
+}
+
+.link img{
+    width: 15px;
+    margin-right: 5px;
 }
