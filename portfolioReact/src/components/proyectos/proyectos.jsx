@@ -5,7 +5,7 @@ import styles from "./proyectos.module.css";
 
 export const Proyectos = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="proyectos">
       <h2 className={styles.title}>Proyectos</h2>
       <div className={styles.projects}>
         {projects.map((projects, id) => {
