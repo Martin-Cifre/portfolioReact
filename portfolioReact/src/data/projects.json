@@ -1,0 +1,28 @@
+[
+    {
+        "title": "PokeFinder",
+        "imgSrc": "projects/pokedex.png",
+        "description": "Proyecto de Pokedex interactiva ",
+        "skills": ["react", "API", "typescript"],
+        "link": "https://poke-react-mu.vercel.app/",
+        "repositorio": "https://github.com/Martin-Cifre/PokedexReact"
+    },
+
+    {
+        "title": "Pokedex",
+        "imgSrc": "projects/pokedex.png",
+        "description": "Proyecto de Pokedex interactiva ",
+        "skills": ["react", "API", "typescript"],
+        "link": "https://poke-react-mu.vercel.app/",
+        "repositorio": "https://github.com/Martin-Cifre/PokedexReact"
+    },
+
+    {
+        "title": "Pokedex",
+        "imgSrc": "projects/pokedex.png",
+        "description": "Proyecto de Pokedex interactiva ",
+        "skills": ["react", "API", "typescript"],
+        "link": "https://poke-react-mu.vercel.app/",
+        "repositorio": "https://github.com/Martin-Cifre/PokedexReact"
+    }
+]
