@@ -22,7 +22,7 @@
         "imgSrc": "projects/hotelParaiso.png",
         "description": "Sitio de un hotel ubicado en Nassau. ",
         "skills": ["react", "css", "typescript"],
-        "link": "https://poke-react-mu.vercel.app/",
+        "link": "https://hotelparaiso-iota.vercel.app/",
         "repositorio": "https://github.com/Martin-Cifre/HotelReact"
     }
 ]
