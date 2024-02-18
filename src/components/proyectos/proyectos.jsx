@@ -29,7 +29,12 @@ export const Proyectos = () => {
               </ul>
 
               <div className={styles.links}>
-                <a className={styles.link} href={projects.link}>
+                <a
+                  className={styles.link}
+                  href={projects.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={getImgUrl("contacto/link.png")} alt="link" />
                   Link
                 </a>
